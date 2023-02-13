@@ -1,0 +1,215 @@
+:root{
+    --cinza: #909090;
+    --preto: #000000;    
+}
+
+
+.bg-cinza, .btn-cinza{
+    background-color: var(--cinza) !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-preto, .btn-preto{
+    background-color: var(--preto) !important;
+    font-family: 'Montserrat', sans-serif;
+    color: white;  
+    border-radius: 0;
+   
+    
+}
+
+.bg-preto2, .btn-preto2{
+    background-color: var(--preto) !important;
+    color: white;  
+    border-radius: 0;
+    outline-color: crimson;
+    border-color: crimson;
+    
+}
+
+.btn {
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  color: crimson;
+}
+
+
+
+
+.colunnleft{
+ 
+  justify-content: left;
+}
+
+.text-cinza{
+    color: var(--cinza) !important;
+}
+
+
+
+.dropdown-item-cinza{
+    border-bottom-color: var(--cinza) !important;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 10px;
+   
+    
+}
+
+.contimg {
+ 
+  justify-content: center;
+  align-items: center;
+    font-family: 'Lindberg', sans-serif;
+    width: 100vw; 
+    height: 100vh;
+}
+
+
+.container_2{
+background-image: url("galery11.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+    
+
+}
+
+.container_3{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200%;
+    
+}
+
+img {
+   max-width: 100%;
+   height:auto;
+}
+
+footermenu{
+    font-size: 10px;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+footer{
+    font-size: 15px;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+.navbar{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+     max-width: 100%;
+   max-height: 100%;
+ 
+    }
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    }
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+
+
+
+@media screen and (min-width: 600px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+ .my-row {
+    height: 5px;
+   
+  }
+
+hr {
+  height: 2px;
+  width: 60%;
+  margin: 50px auto;
+}
+
+.card-img-top {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.card-title a:link {
+    font-size: 20px;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h2 {
+font-family: 'Lindberg', sans-serif;
+ text-align: center;
+ font-size: 66px;
+}
+
+h1 {
+ font-family: 'Lindberg', sans-serif;
+ text-align: center;
+ font-size: 135px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
